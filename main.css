@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: JosefinSans;
-    src: url(design/JosefinSans-VariableFont_wght.ttf);
+    src: url(./JosefinSans-VariableFont_wght.ttf);
     font-weight: 100 900;
 }
 
@@ -18,7 +18,7 @@ body{
 
 .desktop-content{
     width: 55vw;
-    background-image: url(images/bg-pattern-desktop.svg);
+    background-image: url(./bg-pattern-desktop.svg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ body{
 
 .image-desktop{
 width: 45vw;
-background-image: url(images/hero-desktop.jpg);
+background-image: url(./hero-desktop.jpg);
 background-size: cover;
 
 }
@@ -140,7 +140,7 @@ form >img{
 
     .phone-image{
         background-position: center;
-        background-image: url(images/hero-mobile.jpg);
+        background-image: url(./hero-mobile.jpg);
         background-size: cover;
         display: block;
         width: 100vw;
